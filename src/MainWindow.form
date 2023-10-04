@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="MainWindow">
+  <grid id="27dc6" binding="panel" layout-manager="BorderLayout" hgap="0" vgap="0">
+    <constraints>
+      <xy x="20" y="20" width="500" height="400"/>
+    </constraints>
+    <properties/>
+    <border type="none"/>
+    <children>
+      <grid id="7318a" binding="center" custom-create="true" layout-manager="BorderLayout" hgap="0" vgap="0">
+        <constraints border-constraint="Center"/>
+        <properties/>
+        <border type="none"/>
+        <children>
+          <component id="7a6f7" class="javax.swing.JSlider" binding="slider1" default-binding="true">
+            <constraints border-constraint="South"/>
+            <properties>
+              <background color="-1313793"/>
+              <enabled value="true"/>
+              <majorTickSpacing value="2"/>
+              <maximum value="20"/>
+              <minimum value="0"/>
+              <minorTickSpacing value="1"/>
+              <paintLabels value="true"/>
+              <paintTicks value="true"/>
+              <snapToTicks value="false"/>
+              <value value="10"/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+      <grid id="734f2" binding="south" layout-manager="BorderLayout" hgap="0" vgap="0">
+        <constraints border-constraint="South"/>
+        <properties/>
+        <border type="none"/>
+        <children/>
+      </grid>
+    </children>
+  </grid>
+</form>
